@@ -2,13 +2,13 @@
 
 ## Mission THP - Cursus Développeur - Hiver 2022
 
-### Introduction
+### A. Introduction
 
 Durant le cursus "Fullstack", comme au long de son complément "Développeur(++)", nous avons, la plupart du temps, choisi une certaine facilité en faisant appel à un déploiement de nos applications Rails via Heroku, Github Pages et autres DaaS (Dynos as a Service) qui acceptent les technos Rails et la BD PostgreSQL en standard, nativement. Mais voilà, dans la vraie vie, on ne déploie pas toujours via un joli CLI dédié, pas toujours avec la même BD (d'où l'intérêt d'une couche d'abstraction comme le modèle "ActiveRecord" offert par Rails) et pas toujours sans toucher du fichier un peu de fichier config'.
 Ayant moi-même besoin d'héberger mon prototype chez OVH, j'ai récemment fouillé leurs docs clients... Puis le web, à la recherche des étapes nécessaires pour déployer une application Rails (v7.0.3) de base chez eux, avec le support de la BD MySQL (v5.6+) qu'ils proposent par défaut (comme unique choix à ce stade).
 C'est tout ce travail et ces heures de recherche que je souhaite, dans les lignes qui suivent, partager avec vous dans le cadre d'une mission THP : bonne lecture !
 
-### Le tutoriel
+### B. Le tutoriel
 
 1. Commencez, que vous soyez ou pas client(e) OVH [https://www.ovh.com/](https://www.ovh.com/), par souscrire à leur offre intitulée "**Web Power Beta RUBY**". Pas de panique : ce service reste GRATUIT pendant toute la durée des 3 périodes de test, _i.e._ Alpha / Beta / Gamma... Dont l'étape _Alpha_ en cours durent depuis un petit moment déjà). A ce jour, vous pouvez notamment entamer l'inscription via la page dédiée à Ruby & Rails : [https://labs.ovh.com/](https://labs.ovh.com/).
 
@@ -75,14 +75,18 @@ C'est tout ce travail et ces heures de recherche que je souhaite, dans les ligne
 
 18. vous devriez voir apparaître la mire au rond rouge caractéristique de Rails v7+ : félicitations, vous l'avez fait !
 
-### Sources:
+### C. Sources:
 
 - [https://docs.ovh.com/fr/web-power](https://docs.ovh.com/fr/web-power/premiers-pas-avec-hebergement-web-POWER/)
 - [https://labs.ovh.com/managed-ruby](https://labs.ovh.com/managed-ruby)
 - [https://docs.ovh.com/fr/web-power/nodejs-installer-rails/](https://docs.ovh.com/fr/web-power/nodejs-installer-rails/)
 
-### Pour aller plus loin:
+### D. Pour aller plus loin:
 
 - Tutorial HOTWIRE (parce que Rails 7+ ne jure plus que par ce framework... Exit les autres front et même Webpack en middleware de gestion d'assets, a priori) - [https://www.bootrails.com/blog/rails-7-hotwire-a-tutorial/](https://www.bootrails.com/blog/rails-7-hotwire-a-tutorial/)
 - Explorer l'API OVH - [https://eu.api.ovh.com/console/](https://eu.api.ovh.com/console/)
 - Connecter Git - [https://git-scm.com/book/fr/v2/Git-sur-le-serveur-Mise-en-place-du-serveur](https://git-scm.com/book/fr/v2/Git-sur-le-serveur-Mise-en-place-du-serveur)
+
+### E. Le mot de la fin
+
+Enjoy, Wanderer ;-)
